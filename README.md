@@ -13,9 +13,27 @@ Ce document explique **à quoi sert PHP CS Fixer**, **comment l’installer**, *
 * éviter les erreurs de style (indentation, espaces, accolades, etc.),
 * respecter les normes standards comme **PSR-12**.
 
+**Rappel rapide : Qu’est‑ce que PSR‑12 ?**
+
+PSR‑12 est la norme officielle de style de code PHP. Elle définit comment organiser, indenter et écrire ton code pour qu’il soit propre, lisible et cohérent entre tous les projets.
+
+Elle impose notamment :
+
+l’organisation des imports (use) et du namespace,
+
+l’indentation en 4 espaces,
+
+les accolades placées sur la ligne suivante,
+
+des espaces cohérents autour des opérateurs et des mots‑clés,
+
+un style moderne compatible avec PHP 7/8.
+
+PHP‑CS‑Fixer applique automatiquement cette norme lorsque tu utilises la règle @PSR12.
+
 ---
 
-## 📦 Installation de PHP CS Fixer
+## Installation de PHP CS Fixer
 
 ### ➤ 1. Installer via Composer
 
@@ -35,7 +53,7 @@ Vous devriez voir la version afficher.
 
 ---
 
-## ⚙️ Configuration : créer le fichier `.php-cs-fixer.php`
+## Configuration : créer le fichier `.php-cs-fixer.php`
 
 À la racine de votre projet, créez ce fichier :
 
@@ -64,7 +82,7 @@ Ce fichier définit :
 
 ---
 
-## 🧪 Démonstration : Corriger un fichier PHP
+## Démonstration : Corriger un fichier PHP
 
 ### Exemple avant correction :
 
@@ -94,7 +112,7 @@ class Test
 
 ---
 
-## 🧰 Intégration avec PhpStorm
+## Intégration avec PhpStorm
 
 ### ➤ 1. Aller dans les paramètres
 
@@ -125,7 +143,7 @@ $ProjectFileDir$
 
 ---
 
-## 🚀 Bonus : automatiser PHP CS Fixer avec un Git Hook
+## Bonus : automatiser PHP CS Fixer avec un Git Hook
 
 dans `.git/hooks/pre-commit` :
 
@@ -144,7 +162,7 @@ Votre code sera automatiquement corrigé **avant chaque commit**.
 
 ---
 
-## 📝 Conclusion
+## Conclusion
 
 Avec ce TP, vous savez maintenant :
 
