@@ -4,17 +4,7 @@ Ce document explique **à quoi sert PHP CS Fixer**, **comment l’installer**, *
 
 ---
 
-## 🎯 Objectif du TP
-
-Apprendre à utiliser **PHP CS Fixer** pour :
-
-* corriger automatiquement le style de votre code PHP,
-* suivre un standard propre (PSR-12),
-* automatiser la mise en forme dans PhpStorm.
-
----
-
-## ❓ PHP CS Fixer, c’est quoi ?
+## PHP CS Fixer, c’est quoi ?
 
 **PHP CS Fixer** est un outil qui permet de :
 
@@ -23,13 +13,11 @@ Apprendre à utiliser **PHP CS Fixer** pour :
 * éviter les erreurs de style (indentation, espaces, accolades, etc.),
 * respecter les normes standards comme **PSR-12**.
 
-En bref : il rend votre code **plus propre**, **plus lisible**, et **plus professionnel**, en un seul clic ou commande.
-
 ---
 
 ## 📦 Installation de PHP CS Fixer
 
-### ➤ 1. Installer via Composer (méthode recommandée)
+### ➤ 1. Installer via Composer
 
 Dans votre projet :
 
@@ -169,5 +157,3 @@ Avec ce TP, vous savez maintenant :
 Votre projet PHP sera désormais **propre, moderne et cohérent** ! 💪
 
 ---
-
-Si tu veux, je peux te générer un projet de base avec les bons fichiers déjà prêts (`composer.json`, `.php-cs-fixer.php`, hook Git, etc.).
