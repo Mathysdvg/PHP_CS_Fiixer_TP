@@ -38,7 +38,7 @@ PHP‑CS‑Fixer applique automatiquement cette norme lorsque tu utilises la rè
 Dans votre projet :
 
 ```bash
-composer require --dev friendsofphp/php-cs-fixer
+composer require friendsofphp/php-cs-fixer --dev
 ```
 
 ### ➤ 2. Vérifier l'installation
