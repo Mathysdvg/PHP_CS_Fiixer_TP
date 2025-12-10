@@ -270,9 +270,7 @@ Avec ce TP, vous savez maintenant :
 
 * ce qu'est PHP CS Fixer,
 * comment l’installer et le configurer,
-* comment l’utiliser en ligne de commande,
-* comment l’intégrer dans PhpStorm,
-* comment automatiser les corrections.
+* comment l’intégrer dans PhpStorm
 
 Votre projet PHP sera désormais **propre, moderne et cohérent** !
 
